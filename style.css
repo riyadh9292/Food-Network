@@ -1,0 +1,121 @@
+body {
+  font-family: "Noto Sans TC", sans-serif;
+  margin: 0;
+}
+h1 {
+  font-weight: 900;
+  font-size: 32px;
+  margin: 0;
+}
+
+.flexible-content {
+  display: flex;
+  margin-bottom: 100px;
+}
+.half-width {
+  width: 50%;
+  padding-left: 2%;
+}
+.color-changer {
+  color: orange;
+}
+.starter-section {
+  margin-top: 10%;
+  margin-left: 5%;
+}
+.starter-section-paragraph {
+  margin: 22px 0 55px;
+  font-size: 20px;
+}
+.order-button {
+  text-decoration: none;
+  background: linear-gradient(rgb(194, 100, 23), rgb(255, 81, 0));
+  padding: 20px;
+  border-radius: 20px;
+  color: #fff;
+}
+.image-sizing {
+  width: 80%;
+  /* margin-top: 50px; */
+}
+.background {
+  background: url("7.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.background .image-sizing {
+  padding-top: 100px;
+  padding-left: 25%;
+  height: 720px;
+  width: auto;
+}
+.about {
+  margin: 100px;
+  padding: 100px;
+}
+.about h1 {
+  margin-bottom: 32px;
+}
+.about .starter-section-paragraph {
+  margin-bottom: 112px;
+}
+.recipies-header {
+  text-align: center;
+}
+.recipies-paragraph {
+  margin: 20px 600px;
+  word-spacing: 2px;
+  text-align: center;
+  font-size: 18px;
+}
+.recipes {
+  width: 100%;
+  text-align: center;
+}
+.recipes p {
+  text-align: left;
+  padding: 0 16px;
+}
+.recipes-flexible-content {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 48px;
+}
+.card {
+  width: 21%;
+  box-shadow: 10px 10px 40px gray;
+  /* padding: 0 20px; */
+  border-radius: 20px;
+  margin-left: 40px;
+}
+.card img {
+  width: 360px;
+  height: 310px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+.card-title {
+  text-align: left;
+  margin: 0 16px;
+  font-weight: bold;
+}
+.footer {
+  background: rgb(4, 19, 58);
+  padding: 5px;
+  color: #fff;
+  text-align: center;
+}
+.gray-color {
+  color: rgb(80, 74, 74);
+}
+.footer-head {
+  padding: 40px 0 10px;
+  font-size: 40px;
+  margin-bottom: 8px;
+  word-spacing: 16px;
+}
+.footer p {
+  color: silver;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
