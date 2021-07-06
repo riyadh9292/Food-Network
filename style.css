@@ -106,13 +106,12 @@ h1 {
   background-size: cover;
 }
 .background .image-sizing {
-  padding-top: 100px;
+  /* padding-top: 10px; */
   padding-left: 25%;
-  height: 720px;
+  height: 620px;
   width: auto;
 }
 .about {
-  margin: 80px;
   padding: 50px;
 }
 .about h1 {
@@ -130,7 +129,7 @@ h1 {
   text-align: center;
 }
 .recipies-paragraph {
-  margin: 20px 600px;
+  margin: 10px 600px 40px;
   word-spacing: 2px;
   text-align: center;
   font-size: 18px;
@@ -169,9 +168,9 @@ h1 {
 
 /* end of recepies section */
 /* Review section */
-/* #customer-review {
-  width: 100%;
-} */
+#customer-review {
+  margin-top: 100px;
+}
 .reviews {
   background: rgba(98, 8, 8, 0.863);
   margin: 20px;
