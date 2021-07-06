@@ -2,6 +2,55 @@ body {
   font-family: "Otomanopee One", sans-serif;
   margin: 0;
 }
+.color-changer {
+  color: orange;
+}
+
+/* Navigation */
+.navigation {
+  width: 100%;
+  height: 70px;
+  margin-bottom: 50px;
+  background: #d8a90e;
+  padding: 8px 16px;
+  position: fixed;
+  z-index: 1;
+}
+.navigation h1,
+.navigation nav {
+  display: inline-block;
+}
+.main-nav {
+  width: 1200px;
+  text-align: right;
+}
+.main-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.main-nav li {
+  display: inline-block;
+}
+.nav-item {
+  text-decoration: none;
+  color: rgb(4, 39, 11);
+  font-weight: bold;
+  margin-left: 58px;
+  font-size: 25px;
+}
+.nav-item:hover {
+  color: darkolivegreen;
+  font-size: 28px;
+}
+.brand:hover {
+  cursor: pointer;
+  color: white;
+}
+
+/* end of navigation bar */
+
+/* first content of page */
 .main-heading {
   font-weight: 900;
   font-size: 80px;
@@ -15,14 +64,13 @@ h1 {
 .flexible-content {
   display: flex;
   margin-bottom: 100px;
+  padding-top: 100px;
 }
 .half-width {
   width: 50%;
   padding-left: 2%;
 }
-.color-changer {
-  color: orange;
-}
+
 .starter-section {
   margin-top: 10%;
   margin-left: 5%;
@@ -47,6 +95,11 @@ h1 {
   width: 80%;
   /* margin-top: 50px; */
 }
+
+/* end of first section */
+
+/* about section */
+
 .background {
   background: url("images/7.png");
   background-repeat: no-repeat;
@@ -69,6 +122,10 @@ h1 {
   margin-bottom: 112px;
   font-weight: 300;
 }
+
+/* end of about section */
+
+/*  start of recepies section */
 .recipies-header {
   text-align: center;
 }
@@ -109,6 +166,48 @@ h1 {
   margin: 0 16px;
   font-weight: bold;
 }
+
+/* end of recepies section */
+/* Review section */
+/* #customer-review {
+  width: 100%;
+} */
+.reviews {
+  background: rgba(98, 8, 8, 0.863);
+  margin: 20px;
+  box-shadow: 2px 1px 3px 1px grey;
+  border-radius: 20px;
+}
+.review {
+  width: 30%;
+  text-align: center;
+  margin: 15px;
+}
+.review small {
+  color: #fff;
+  font-size: 32px;
+  display: inline-block;
+  font-weight: 800;
+}
+.review-img {
+  height: 280px;
+  width: 260px;
+
+  /* border: 3px solid gold; */
+  border-radius: 30%;
+}
+.review-details {
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  margin-right: 90px;
+  color: rgba(110, 110, 110, 0.993);
+}
+
+/* end of review section */
+
+/* footer */
+
 .footer {
   background: rgb(4, 19, 58);
   padding: 5px;
@@ -126,6 +225,7 @@ h1 {
 }
 .footer p {
   color: silver;
-  font-weight: bold;
+  font-weight: 300;
   padding-bottom: 20px;
 }
+/* end of footer */
